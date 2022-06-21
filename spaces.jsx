@@ -40,7 +40,7 @@ export const render = ({ output }, ...args) => {
             </div>
         );
     }
-    const displayId = Number(window.location.pathname.replace(/\//g, ''));
+    const displayId = Number(window.location.pathname.split("/")[1]);
     const display = data.displays.find(d => d.id === displayId);
     return (
         <div style={style}>

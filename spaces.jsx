@@ -4,7 +4,7 @@ import parse from "./lib/parse.jsx";
 import styles from "./lib/styles.jsx";
 
 const style = {
-    padding: "0 8px",
+    padding: "0 0px",
     display: "grid",
     gridAutoFlow: "column",
     gridGap: "16px",
@@ -12,7 +12,7 @@ const style = {
     overflow: "hidden",
     padding: "0px",
     width: "auto",
-    top: "0px",
+    bottom: "0px",
     left: "16px",
     fontFamily: styles.fontFamily,
     lineHeight: styles.lineHeight,

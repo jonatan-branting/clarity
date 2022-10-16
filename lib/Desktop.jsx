@@ -22,12 +22,12 @@ const renderSpace = (display_index, index, focused, visible, windows) => {
     let hasWindows = windows.length > 0;
     if (focused == 1) {
         contentStyle.color = "#ffffff88";
-        contentStyle.borderTop = '3px solid #ffffffbb';
-        contentStyle.backgroundImage = "linear-gradient(#ffffff66, #fff0)";
+        contentStyle.borderBottom = '3px solid #ffffffbb';
+        contentStyle.backgroundImage = "linear-gradient(#fff0, #ffffff66)";
     } else {
         contentStyle.color = "#ffffff22";
-        contentStyle.borderTop = '3px solid #ffffff22';
-        contentStyle.backgroundImage = "linear-gradient(#ffffff05, #fff0)";
+        contentStyle.borderBottom = '3px solid #ffffff22';
+        contentStyle.backgroundImage = "linear-gradient(#fff0, #ffffff05)";
     }
     return (
         <div style={contentStyle}></div>
